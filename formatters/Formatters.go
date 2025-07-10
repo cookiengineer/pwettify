@@ -1,5 +1,6 @@
 package formatters
 
+import "pwettify/formatters/css"
 import "pwettify/formatters/html"
 import "pwettify/formatters/js"
 import "pwettify/formatters/json"
@@ -13,6 +14,7 @@ type Formatter struct {
 }
 
 var Formatters map[string]Formatter = map[string]Formatter{
+	"css":   {css.Supports,  css.Format},
 	"htm":   {html.Supports, html.Format},
 	"html":  {html.Supports, html.Format},
 	"js":    {js.Supports,   js.Format},

@@ -47,16 +47,19 @@ pwettify /path/to/raw.json > /path/to/prettified.json;
 Some formats are planned but unsupported right now. If you have a nice
 way to support them, please don't hesitate to make a pull request!
 
-| Extension | Formatter                 | Package                                                      |
-|:---------:|:--------------------------|:-------------------------------------------------------------|
-| csv       |                           |                                                              |
-| ini       |                           |                                                              |
-| json      | [json](./formatters/json) | `encoding/json`                                              |
-| htm       | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net) |
-| html      | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net) |
-| xml       | [xml](./formatters/xml)   | `encoding/xml`                                               |
-| xhtml     | [xml](./formatters/xml)   | `encoding/xml`                                               |
-| yaml      | [yaml](./formatters/yaml) | [gopkg.in/yaml.v3](https://pkg.go.dev/gopkg.in/yaml.v3)      |
+| Extension | Formatter                 | Package                                                                         |
+|:---------:|:--------------------------|:--------------------------------------------------------------------------------|
+| css       |                           |                                                                                 |
+| csv       |                           |                                                                                 |
+| ini       |                           |                                                                                 |
+| js        | [js](./formatters/js)     | [github.com/evanw/esbuild](https://pkg.go.dev/github.com/evanw/esbuild/pkg/api) |
+| json      | [json](./formatters/json) | `encoding/json`                                                                 |
+| htm       | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net)                    |
+| html      | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net)                    |
+| mjs       | [mjs](./formatters/mjs)   | [github.com/evanw/esbuild](https://pkg.go.dev/github.com/evanw/esbuild/pkg/api) |
+| xml       | [xml](./formatters/xml)   | `encoding/xml`                                                                  |
+| xhtml     | [xml](./formatters/xml)   | `encoding/xml`                                                                  |
+| yaml      | [yaml](./formatters/yaml) | [gopkg.in/yaml.v3](https://pkg.go.dev/gopkg.in/yaml.v3)                         |
 
 
 # License

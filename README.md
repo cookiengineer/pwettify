@@ -49,13 +49,14 @@ way to support them, please don't hesitate to make a pull request!
 
 | Extension | Formatter                 | Package                                                                         |
 |:---------:|:--------------------------|:--------------------------------------------------------------------------------|
-| css       |                           |                                                                                 |
+| css       | [css](./formatters/css)   | [github.com/evanw/esbuild](https://pkg.go.dev/github.com/evanw/esbuild/pkg/api) |
 | csv       |                           |                                                                                 |
 | ini       |                           |                                                                                 |
 | js        | [js](./formatters/js)     | [github.com/evanw/esbuild](https://pkg.go.dev/github.com/evanw/esbuild/pkg/api) |
 | json      | [json](./formatters/json) | `encoding/json`                                                                 |
 | htm       | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net)                    |
 | html      | [html](./formatters/html) | [golang.org/x/net/html](https://pkg.go.dev/golang.org/x/net)                    |
+| manifest  | [json](./formatters/json) | `encoding/json`                                                                 |
 | mjs       | [mjs](./formatters/mjs)   | [github.com/evanw/esbuild](https://pkg.go.dev/github.com/evanw/esbuild/pkg/api) |
 | xml       | [xml](./formatters/xml)   | `encoding/xml`                                                                  |
 | xhtml     | [xml](./formatters/xml)   | `encoding/xml`                                                                  |

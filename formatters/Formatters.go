@@ -14,13 +14,14 @@ type Formatter struct {
 }
 
 var Formatters map[string]Formatter = map[string]Formatter{
-	"css":   {css.Supports,  css.Format},
-	"htm":   {html.Supports, html.Format},
-	"html":  {html.Supports, html.Format},
-	"js":    {js.Supports,   js.Format},
-	"json":  {json.Supports, json.Format},
-	"mjs":   {mjs.Supports,  mjs.Format},
-	"xml":   {xml.Supports,  xml.Format},
-	"xhtml": {xml.Supports,  xml.Format},
-	"yaml":  {yaml.Supports, yaml.Format},
+	"css":      {css.Supports,  css.Format},
+	"htm":      {html.Supports, html.Format},
+	"html":     {html.Supports, html.Format},
+	"js":       {js.Supports,   js.Format},
+	"json":     {json.Supports, json.Format},
+	"manifest": {json.Supports, json.Format},
+	"mjs":      {mjs.Supports,  mjs.Format},
+	"xml":      {xml.Supports,  xml.Format},
+	"xhtml":    {xml.Supports,  xml.Format},
+	"yaml":     {yaml.Supports, yaml.Format},
 }
